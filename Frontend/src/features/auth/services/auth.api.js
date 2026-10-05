@@ -3,8 +3,10 @@ import axios from "axios"
 
 const api = axios.create({
     baseURL: "https://resume-analyzer-byw3.onrender.com",
-    withCredentials: true,
+    withCredentials: true
 })
+
+
 
 export async function register({ username, email, password }) {
 
